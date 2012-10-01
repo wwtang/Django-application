@@ -1,0 +1,9 @@
+Django application content management system
+
+Usage:
+1. Configure mysql, create database 'mydata' in mysql as root without passsword
+2. Go to manage.py located foler 
+3. Run 'python manage.py syncdb' to synchronize database and register as administrator with passowrd
+4. Run 'python manage.py runserver' to launce the apllication
+5. Visit 'localhost:8000/admin/' in browser to manage this application as administrator
+6. Visit 'localhost:8000/cms/' in borwser to view and utilize this application
